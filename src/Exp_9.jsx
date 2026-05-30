@@ -27,7 +27,6 @@ function Exp_9() {
       <h2>{name}</h2>
       <h2>{email}</h2>
       <h2>{password}</h2>
-      
 
       <button onClick={show}>Submit</button>
     </div>
