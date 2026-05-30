@@ -8,8 +8,7 @@ function Exp_8() {
   const increment =()=> {
     setCount (count+1)
   }
-  const decrement =()=> {
-    
+  const decrement =()=> {   
     setCount (count-1)
   }
   const reset =()=> {
