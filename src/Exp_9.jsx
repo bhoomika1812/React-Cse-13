@@ -21,8 +21,9 @@ function Exp_9() {
     <div>
       <h1>Registration form</h1>
       <input type="text" placeholder="Enter Your Name" onChange={(e)=>setName(e.target.value)}></input><br></br>
-      
+
       <input type="text" placeholder="Enter Your Email" onChange={(e)=>setEmail(e.target.value)}></input><br></br>
+      
       <input type="text" placeholder="Enter Your Password" onChange={(e)=>setPassword(e.target.value)}></input><br></br>
       
       <h2>{name}</h2>
