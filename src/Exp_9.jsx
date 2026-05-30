@@ -5,7 +5,9 @@ import './Exp_9.css'
 function Exp_9() {
     
     const[name, setName]=useState(" ")
+    
     const [email, setEmail]=useState(" ")
+
     const [password, setPassword]=useState(" ")
     
     function show() {
@@ -23,7 +25,7 @@ function Exp_9() {
       <input type="text" placeholder="Enter Your Name" onChange={(e)=>setName(e.target.value)}></input><br></br>
 
       <input type="text" placeholder="Enter Your Email" onChange={(e)=>setEmail(e.target.value)}></input><br></br>
-      
+
       <input type="text" placeholder="Enter Your Password" onChange={(e)=>setPassword(e.target.value)}></input><br></br>
       
       <h2>{name}</h2>
