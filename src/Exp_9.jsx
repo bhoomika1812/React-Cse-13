@@ -5,9 +5,8 @@ import './Exp_9.css'
 function Exp_9() {
     
     const[name, setName]=useState(" ")
-    
-    const [email, setEmail]=useState(" ")
 
+    const [email, setEmail]=useState(" ")
     const [password, setPassword]=useState(" ")
     
     function show() {
