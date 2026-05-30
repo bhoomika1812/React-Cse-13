@@ -3,8 +3,7 @@ import './Exp_7.css'
 import Student from './Student' //exp 7
 
 function Exp_7() {
-  return (
-    
+  return (   
     <div>
       <h2>Student information</h2>
       <Student name="Raj" course="B.Tech" marks="50"/>
