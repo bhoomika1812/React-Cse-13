@@ -21,8 +21,8 @@ function App() {
     else {
       alert ("registered")
     }
-  }
 
+  }
 
 
   {/*
